@@ -1,0 +1,33 @@
+
+
+
+<form bindsubmit="fzy">
+  <view class="section">
+
+  
+    <view>
+     <label>
+        <text>------------------我的信息----------------</text>
+     </label>
+    </view>
+    <view>
+      <label>
+        <text>{{keyword}}</text>
+      </label>
+    </view>
+    <view class="change">
+      <input name="keyword"  placeholder="请输入要更改的关键字" auto-focus/>
+    </view>
+    <view>
+      <label>
+        <text>{{wxinfo}}</text>
+      </label>
+    </view>
+    <view class="change">
+      <input name="wxinfo"  placeholder="请输入微信号" auto-focus/>
+      <button type="primary" formType="submit" >更改</button>
+    </view>
+
+    
+  </view>
+</form>

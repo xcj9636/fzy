@@ -1,0 +1,22 @@
+/* pages/home/home.wxss */
+.change {
+  display: flex;
+  flex-direction:row;
+  border:1px solid #aaaaaa;
+}
+.change input { 
+  width:80%;
+  height:40px;
+ line-height : 40px ;
+ font-size : 14px ;
+ padding-left:10px;
+}
+.change button {
+ border : 1px solid #ffffff ;
+ width : 20% ;
+ height : 40px ;
+ background : #000000 ;
+ color : #ffffff ;
+ line-height : 40px ;
+ font-size : 14px ;
+}

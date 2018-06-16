@@ -1,0 +1,12 @@
+<!--pages/search/search.wxml-->
+
+<form bindsubmit="fzy">
+    <view class="section">
+      <input name="keyword" placeholder="请输入要查找的关键字"  auto-focus/>
+      <button type="primary" formType="submit" >查找</button>
+    </view>
+    <view>
+      <text >{{wxinfo}}</text>
+    </view>
+
+</form>

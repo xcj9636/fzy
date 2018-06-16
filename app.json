@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/search/search",
+    "pages/home/home"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "方知友App",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+  "color": "#9B9DB1",
+  "selectedColor": "#3cc51f",
+  "borderStyle": "black",
+  "backgroundColor": "#ffffff",
+  "list": [
+    {
+      "pagePath": "pages/index/index",
+      "iconPath": "images/fzy.png",
+      "selectedIconPath": "images/fzy.png",
+      "text": "首页"
+    },
+    {
+      "pagePath": "pages/search/search",
+      "iconPath": "images/search.png",
+      "selectedIconPath": "images/search.png",
+      "text": "查找"
+    },
+    {
+      "pagePath": "pages/home/home",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/home.png",
+      "text": "个人信息"
+    }
+  ]
+}
+  
+}
